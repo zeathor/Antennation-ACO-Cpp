@@ -1,0 +1,14 @@
+BatchFile test, number of cities =198
+AS Algorithm - LSType EXPONENTIAL Times = 5
+Format:
+meanGen sigGen meanDist sigDist DP AP IP NA AF ANTMEET
+AntType = AFBOOL
+AntDir = BIAFDIR
+BatchFile test, number of cities =198
+AS Algorithm - LSType EXPONENTIAL Times = 5
+Format:
+meanGen sigGen meanDist sigDist DP AP IP NA AF ANTMEET
+AntType = AFBOOL
+AntDir = BIAFDIR
+118.78  36.1266 16030.4 284.624 0.1 0.5 0.1 40 0 0
+

@@ -1,0 +1,54 @@
+// Configuration File Format - lines with >1 parameter are \t separated
+// any lines starting with // are ignored
+// Map filename	(string)
+berlin52.txt
+// Save batch filenam (string)
+BerlinCheck.txt
+// Algorithm type - AS/ACS/AMTS/MMAS 				(string)
+ACS
+// Alpha value (int)
+1
+// Beta values (int)								
+2
+// Random Seed value (int)
+100
+// Local Search type - NONE LSEXP	(string)
+LSEXP
+// Local Search times per ant per iteration 		(int)	
+5
+// Antennation Direction - BIAFDIR UNIAFDIR // Place each type on a separate line 
+BIAFDIR
+// Continues checking for AFdirections until empty line
+
+// Antennation type - AFBOOL AFLIN AFSQR AFSQRT AFTANH AFAMTS AF1ONX	(string)
+AFBOOL
+// Place each type on a separate line 
+// Continues checking for AFtypes until empty line
+
+// After empty line, batch variable settings - all settings are start step end
+// Ants in simulation 						(int)
+25 25 25
+// Pheromone Added 							(double)
+0.1 0.1 0.1
+// Pheromone Evaporation/decay NOT persistence 	(double)
+0.1 0.1 0.1
+// Initial Pheromone 						(double)
+2.2e-5 0.1 2.2e-5
+// Antennation Factor 						(double)
+0 0.1 0
+// Number of generations with no change		(int)
+50
+// Number of iterations for each setting	(int)
+50
+// empty line
+
+// ADDITIONAL SETTINGS FOR EACH ALGORITHM
+// IF ACS
+// greedy probability 						(double)
+// % iBest vs gBest - single value 			(double)
+// IF AMTS
+// maximum ant age 							(int)
+0.9 0.9 0.9
+0.75
+
+

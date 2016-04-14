@@ -1,0 +1,32 @@
+// Configuration File Format - lines with >1 parameter are \t separated
+// any lines starting with // are ignored
+// Map filename	(string)
+// Save batch filenam (string)
+// Empty line 
+// Algorithm type - AS/ACS/AMTS/MMAS 				(string)
+// Alpha value (int)
+// Beta values (int)
+// Random Seed value (int)								
+// Local Search type - NONE (default), LSEXP		(string)
+// Local Search times per ant per iteration 		(int)	
+// Antennation Direction - BIAFDIR UNIAFDIR 
+// Place each type on a separate line 
+// Continues checking for AFdirections until empty line
+// Antennation type - AFNONE AFBOOL AFLIN AFSQR AFSQRT AFTANH AFAMTS AF1ONX	(string)
+// Place each type on a separate line 
+// Continues checking for AFtypes until empty line
+// After empty line, batch variable settings - all settings are start step end
+// Ants in simulation 						(int)
+// Pheromone Added 							(double)
+// Pheromone Evaporation/decay NOT persistence 	(double)
+// Initial Pheromone 						(double)
+// Antennation Factor 						(double)
+// Number of generations with no change		(int)
+// Number of iterations for each setting	(int)
+// empty line
+// ADDITIONAL SETTINGS FOR EACH ALGORITHM
+// IF ACS
+// greedy probability 						(double)
+// IF AMTS
+// maximum ant age 							(int)
+
